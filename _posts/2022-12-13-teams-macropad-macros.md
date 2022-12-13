@@ -8,7 +8,7 @@ If you do use a Mac, I would strongly encourage you to invest in Keyboard Maestr
 
 The macropad kit I built is _called_ "3x3Macropad", but in the configuration I built, it has 2 rows of 3 keys each, a small OLED screen, and a rotary encoder (a knob).
 
-![3x3Macropad](/docs/assets/images/macropad.jpeg)
+<img src="/docs/assets/images/macropad.jpeg" style="width:512px" />
 
 So I have 6 keys I can script for Teams functionality. Here's what I decided to implement:
 
