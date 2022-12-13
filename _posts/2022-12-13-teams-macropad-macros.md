@@ -8,7 +8,7 @@ If you do use a Mac, I would strongly encourage you to invest in Keyboard Maestr
 
 The macropad kit I built is _called_ "3x3Macropad", but in the configuration I built, it has 2 rows of 3 keys each, a small OLED screen, and a rotary encoder (a knob).
 
-![3x3Macropad](images/2022-12-13-macropad.jpeg)
+![3x3Macropad](../assets/images/2022-12-13/macropad.jpeg)
 
 So I have 6 keys I can script for Teams functionality. Here's what I decided to implement:
 
@@ -69,7 +69,7 @@ Here's the KM steps I ended up with:
 7. Pause until the "4" key is released[^1]
 8. Release the `⌥Space` keystroke
 
-![Keyboard Maestro macro for hold-to-speak](images/2022-12-13-km-hold-to-speak.png)
+![Keyboard Maestro macro for hold-to-speak](../assets/images/2022-12-13/km-hold-to-speak.png)
 
 [^1]: I bound my "hold to speak" macro to a key with a key code of `hyper + 4`. KM can only watch a single key press for the "pause until ... released" action, so I had to use one of the keys that was already being held down, and a non-modified key, to watch for when to release the keystroke.
 
@@ -93,12 +93,12 @@ This function also has a built-in keyboard shortcut (`⇧⌘H`)
 
 These are the Keyboard Maestro macros I created (that work for me on a MacBook Pro running MacOS Monterey 12.6.1. YMMV). To install, download and double-click each file, or use the "File > Import..." menus in KM.
 
-- [teams_toggle_mic.kmmacros](files/teams_toggle_mic.kmmacros)
-- [teams_toggle_video.kmmacros](files/teams_toggle_video.kmmacros)
-- [teams_raise_lower_hand.kmmacros](files/teams_raise_lower_hand.kmmacros)
-- [teams_hold_to_speak.kmmacros](files/teams_hold_to_speak.kmmacros)
-- [teams_open_chat.kmmacros](files/teams_open_chat.kmmacros)
-- [teams_leave_call.kmmacros](files/teams_leave_call.kmmacros)
+- [teams_toggle_mic.kmmacros](../assets/files/2022-12-13/teams_toggle_mic.kmmacros)
+- [teams_toggle_video.kmmacros](../assets/files/2022-12-13/teams_toggle_video.kmmacros)
+- [teams_raise_lower_hand.kmmacros](../assets/files/2022-12-13/teams_raise_lower_hand.kmmacros)
+- [teams_hold_to_speak.kmmacros](../assets/files/2022-12-13/teams_hold_to_speak.kmmacros)
+- [teams_open_chat.kmmacros](../assets/files/2022-12-13/teams_open_chat.kmmacros)
+- [teams_leave_call.kmmacros](../assets/files/2022-12-13/teams_leave_call.kmmacros)
 
 ## Summary
 
