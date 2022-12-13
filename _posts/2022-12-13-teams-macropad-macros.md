@@ -93,12 +93,12 @@ This function also has a built-in keyboard shortcut (`⇧⌘H`)
 
 These are the Keyboard Maestro macros I created (that work for me on a MacBook Pro running MacOS Monterey 12.6.1. YMMV). To install, download and double-click each file, or use the "File > Import..." menus in KM.
 
-- [teams_toggle_mic.kmmacros](../assets/files/2022-12-13/teams_toggle_mic.kmmacros)
-- [teams_toggle_video.kmmacros](../assets/files/2022-12-13/teams_toggle_video.kmmacros)
-- [teams_raise_lower_hand.kmmacros](../assets/files/2022-12-13/teams_raise_lower_hand.kmmacros)
-- [teams_hold_to_speak.kmmacros](../assets/files/2022-12-13/teams_hold_to_speak.kmmacros)
-- [teams_open_chat.kmmacros](../assets/files/2022-12-13/teams_open_chat.kmmacros)
-- [teams_leave_call.kmmacros](../assets/files/2022-12-13/teams_leave_call.kmmacros)
+- [teams_toggle_mic.kmmacros](/docs/assets/files/teams_toggle_mic.kmmacros)
+- [teams_toggle_video.kmmacros](/docs/assets/files/teams_toggle_video.kmmacros)
+- [teams_raise_lower_hand.kmmacros](/docs/assets/files/teams_raise_lower_hand.kmmacros)
+- [teams_hold_to_speak.kmmacros](/docs/assets/files/teams_hold_to_speak.kmmacros)
+- [teams_open_chat.kmmacros](/docs/assets/files/teams_open_chat.kmmacros)
+- [teams_leave_call.kmmacros](/docs/assets/files/teams_leave_call.kmmacros)
 
 ## Summary
 
