@@ -8,7 +8,7 @@ If you do use a Mac, I would strongly encourage you to invest in Keyboard Maestr
 
 The macropad kit I built is _called_ "3x3Macropad", but in the configuration I built, it has 2 rows of 3 keys each, a small OLED screen, and a rotary encoder (a knob).
 
-<img src="/docs/assets/images/macropad.jpeg" style="width:512px" />
+<img src="/docs/assets/images/macropad.jpeg" style="width:512px" alt="3x3Macropad" />
 
 So I have 6 keys I can script for Teams functionality. Here's what I decided to implement:
 
@@ -69,7 +69,7 @@ Here's the KM steps I ended up with:
 7. Pause until the "4" key is released[^1]
 8. Release the `⌥Space` keystroke
 
-![Keyboard Maestro macro for hold-to-speak](/docs/assets/images/km-hold-to-speak.png)
+<img src="/docs/assets/images/km-hold-to-speak.png" style="width:512px" alt="Keyboard Maestro macro for hold-to-speak" />
 
 [^1]: I bound my "hold to speak" macro to a key with a key code of `hyper + 4`. KM can only watch a single key press for the "pause until ... released" action, so I had to use one of the keys that was already being held down, and a non-modified key, to watch for when to release the keystroke.
 
