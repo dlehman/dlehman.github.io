@@ -1,6 +1,6 @@
 ---
 title: "Connecting a Toper Coffee Roaster to Artisan Scope on Mac"
-date: YYYY-MM-DD
+date: 2023-04-18
 ---
 
 # Connecting a Toper Coffee Roaster to Artisan Scope on Mac
