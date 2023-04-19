@@ -19,18 +19,25 @@ github_username: "dlehman"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 
-rss: rss
+theme: "minima"
+
 remote_theme: pages-themes/minimal@v0.2.0
+
+rss: rss
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
+
 titles_from_headings:
   strip_title: true
   collections: true
+
 defaults:
   - scope:
       path: ""
