@@ -43,7 +43,7 @@ The following files are installed:
 4. Run the "Phidget Control Panel" in Applications to ensure the device is visible. Close the Control Panel (you cannot run Artisan and the Phidget Control Panel at the same time)
 5. Run Artisan and configure using the "Config > Machine > Phidget > USB 1048 Databridge 2xTC" option
 
-## Grant Access to Install the Kernel Extension (macOS 11-12)
+## Grant Access to Install the Kernel Extension In macOS 11-12
 
 1. Open Apple System Preferences
 2. Open "Security & Privacy"
@@ -54,7 +54,7 @@ The following files are installed:
     - Click "Unlock"
 5. Click "Allow" to allow the Phidgets kext to load
 
-## Grant Access In macOS 13 Ventura
+## Grant Access In macOS 13 (Ventura)
 
 1. Open " > System Settings"
 2. Open "Privacy & Security" section

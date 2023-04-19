@@ -21,7 +21,8 @@ github_username: "dlehman"
 # theme: "minima"
 
 rss: rss
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: poole/lanyon
+# remote_theme: pages-themes/minimal@v0.2.0
 
 kramdown:
   syntax_highlighter_opts:
