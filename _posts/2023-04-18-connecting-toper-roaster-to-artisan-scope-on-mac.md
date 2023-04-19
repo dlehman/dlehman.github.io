@@ -14,7 +14,7 @@ I tried using the `Config > Device` and `Config > Port` menus in Artisan, but co
 
 After googling whatever ideas I could think of, my next hope was finding out that some Toper roasters have an Ethernet port built-in as well as USB, and can be connected to a network, or directly to the laptop. Unfortunately, there was no such port in my roaster.
 
-Finally I followed the USB cable inside the machine and traced it to a box that said "PhidgetTemperatureSensor" on it. Hmm... I googled "phidget" and discovered phidgets are "products for USB Sensing and Control" Furthermore, the Artisan `Config > Machine` menu had a "Phidget" option on it. I selected the `Phidget USB 1048 Databridge 2xTC` sub-option, mostly because it included "USB" in the description.
+Finally I followed the USB cable inside the machine and traced it to a box that said "PhidgetTemperatureSensor" on it. Hmm... I googled "phidget" and discovered phidgets are "products for USB Sensing and Control". Furthermore, the Artisan `Config > Machine` menu had a "Phidget" option. I selected the `Phidget USB 1048 Databridge 2xTC` sub-option, mostly because it included "USB" in the description.
 
 ![Phidget temperature sensor](/docs/assets/images/phidget_temp_sensor.jpeg)
 
@@ -45,21 +45,21 @@ The following files are installed:
 
 ## Grant Access to Install the Kernel Extension (macOS 11-12)
 
-1. Open Apple System Preferences.
-2. Open Security & Privacy.
-3. Select the General tab.
+1. Open Apple System Preferences
+2. Open "Security & Privacy"
+3. Select the "General" tab
 4. If general settings are locked:
 
-  * Click the lock icon in the lower-left corner.
-  * Enter your device password.
-  * Click Unlock.
+    * Click the lock icon in the lower-left corner
+    * Enter your device password
+    * Click "Unlock"
 
-5. Click Allow to allow the Phidgets kext to load. 
+5. Click "Allow" to allow the Phidgets kext to load
 
 ## Grant Access In macOS 13 Ventura
 
 1. Open " > System Settings"
 2. Open "Privacy & Security" section
 3. Scroll down to the "Security" section
-4. Click "Allow" to allow the Phidgets kext to load.
+4. Click "Allow" to allow the Phidgets kext to load
 5. Reboot after installation to activate extension
