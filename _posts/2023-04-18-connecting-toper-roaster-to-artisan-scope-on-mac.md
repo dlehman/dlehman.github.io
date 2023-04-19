@@ -34,8 +34,9 @@ All this took me several days, and not a little frustration to work out. And so,
 1. Download the [Phidget 22 installer](https://www.phidgets.com/downloads/phidget22/libraries/macos/Phidget22.dmg) from phidgets.com
 2. Run the installer (Phidgets.pkg) 
     - **Note:** In macOS 11 and later, third-party kernel extensions (kexts) require the user’s approval to install, and restarting of the macOS to load the changes into the kernel (see below).
-3. Run the "Phidget Control Panel" in Applications to ensure the device is visible. Close the Control Panel (you cannot run Artisan and the Phidget Control Panel at the same time)
-4. Run Artisan and configure using the "Config > Machine > Phidget > USB 1048 Databridge 2xTC" option
+3. Run the "Phidget Control Panel" in Applications to ensure the device is visible.
+4. **Close the Control Panel** app. (You cannot run Artisan and the Phidget Control Panel at the same time)
+5. Run Artisan and configure using the "Config > Machine > Phidget > USB 1048 Databridge 2xTC" option
 
 ### Allow Kernel Extension Installation (macOS 11-12)
 
