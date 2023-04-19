@@ -1,4 +1,9 @@
-# Blog: Connecting Toper Roaster to Artisan Scope on Mac
+---
+title: "Connecting a Toper Coffee Roaster to Artisan Scope on Mac"
+date: YYYY-MM-DD
+---
+
+# Connecting a Toper Coffee Roaster to Artisan Scope on Mac
 
 I have a 2018 Toper TKMSX-1G coffee roaster (1kg capacity). It has a USB cable attached to it, so I wanted to connect it to a laptop, so I could record and analyze my roasts. I have a MacBook Pro with the M1 (Apple Silicon) processor, running Ventura (macOS 13).
 
