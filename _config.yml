@@ -5,7 +5,7 @@ description: "I write about Ruby and Rails, mechanical keyboards (and macropads)
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "dlehman@gmail.com"
-twitter_username: "dlehman"
+#twitter_username: "dlehman"
 github_username: "dlehman"
 #linkedin_username: "linkedinuser"
 #facebook_username: username
@@ -19,8 +19,8 @@ github_username: "dlehman"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 
-# theme: "minima"
-remote_theme: pages-themes/minimal@v0.2.0
+theme: "minima"
+#remote_theme: pages-themes/minimal@v0.2.0
 rss: rss
 plugins:
   - jekyll-feed
