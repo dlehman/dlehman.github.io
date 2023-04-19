@@ -27,28 +27,17 @@ Still nothing.
 
 However, the Phidgets.com website also had a [drivers software section](https://www.phidgets.com/docs/OS_-_macOS), with an installer for OS X 10.11+. I downloaded and installed it. Note that the driver comes as a kernel extension (kext), which, in modern Mac OSs, is no longer "recommended", and thus requires you to approve the installation from System Settings (nee System Prefs) and rebooting before it will be active. I rebooted, plugged in my roaster, fired up Artisan and... voila!
 
-All this took me several days, and not a little frustration to work out, and so I am leaving this blog post as a bread crumb for you, dear future traveller, in hopes of saving you at least a little time. Good luck!
+All this took me several days, and not a little frustration to work out. And so, dear future Internet traveller, I am leaving this blog post as a bread crumb for you, in hopes of saving you at least a little time. Good luck!
 
 ## Full Instructions
 
 1. Download the [Phidget 22 installer](https://www.phidgets.com/downloads/phidget22/libraries/macos/Phidget22.dmg) from phidgets.com
 2. Run the installer (Phidgets.pkg) 
+    - **Note:** In macOS 11 and later, third-party kernel extensions (kexts) require the user’s approval to install, and restarting of the macOS to load the changes into the kernel (see below).
+3. Run the "Phidget Control Panel" in Applications to ensure the device is visible. Close the Control Panel (you cannot run Artisan and the Phidget Control Panel at the same time)
+4. Run Artisan and configure using the "Config > Machine > Phidget > USB 1048 Databridge 2xTC" option
 
-```
-The following files are installed:
-
-/Library/Frameworks/Phidget22.framework
-/Library/Frameworks/Phidget22Extra.framework
-/usr/local/bin/phidget22networkserver
-/Library/Java/Extensions/libphidget22java.jnilib
-/Applications/Phidget Control Panel
-```
-
-3. **Note:** In macOS 11 and later, third-party kernel extensions (kexts) require the user’s approval to install, and restarting of the macOS to load the changes into the kernel (see below).
-4. Run the "Phidget Control Panel" in Applications to ensure the device is visible. Close the Control Panel (you cannot run Artisan and the Phidget Control Panel at the same time)
-5. Run Artisan and configure using the "Config > Machine > Phidget > USB 1048 Databridge 2xTC" option
-
-## Grant Access to Install the Kernel Extension In macOS 11-12
+### Allow Kernel Extension Installation (macOS 11-12)
 
 1. Open Apple System Preferences
 2. Open "Security & Privacy"
@@ -57,9 +46,9 @@ The following files are installed:
     - Click the lock icon in the lower-left corner
     - Enter your device password
     - Click "Unlock"
-5. Click "Allow" to allow the Phidgets kext to load
+5. Click "Allow" to allow the Phidgets kext to load & reboot
 
-## Grant Access In macOS 13 (Ventura)
+### Allow in macOS 13 (Ventura)
 
 1. Open " > System Settings"
 2. Open "Privacy & Security" section
