@@ -49,11 +49,9 @@ The following files are installed:
 2. Open "Security & Privacy"
 3. Select the "General" tab
 4. If general settings are locked:
-
-    * Click the lock icon in the lower-left corner
-    * Enter your device password
-    * Click "Unlock"
-
+    - Click the lock icon in the lower-left corner
+    - Enter your device password
+    - Click "Unlock"
 5. Click "Allow" to allow the Phidgets kext to load
 
 ## Grant Access In macOS 13 Ventura
