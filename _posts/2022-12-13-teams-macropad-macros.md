@@ -1,3 +1,8 @@
+---
+title: "Building a Macropad for Microsoft Teams using Keyboard Maestro"
+date: 2022-12-13
+---
+
 # Building a Macropad for Microsoft Teams using Keyboard Maestro
 
 Several months ago, I built a [macropad](https://github.com/GitSimon8/3x3Macropad). This was a fun project, but I never really had a specific purpose for it. Then last week, there was a Reddit post about using a macropad with Microsoft Teams. Ah ha! Now I had a purpose. Unfortunately, the post did not go into much detail about the specific functionality that was implemented. To help you avoid the same fate, here is some detail about how I accomplished this.
